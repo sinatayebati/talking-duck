@@ -1,0 +1,9 @@
+# Example docker-compose.yml for Gradio app
+version: '3'
+services:
+  gradio-app:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - HF_API_TOKEN
