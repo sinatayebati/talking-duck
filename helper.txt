@@ -1,19 +1,17 @@
 # Ensure Docker Buildx is used and setup
 docker buildx create --use
 
+#export your API token as a secret variable
+export HF_API_TOKEN="your_huggingface_api_token_here"
+
+echo $HF_API_TOKEN
+
+
 # Build your Docker image with Buildx (assuming you're now working locally and not pushing to a registry)
 docker buildx build --load --secret id=HF_API_TOKEN,env=HF_API_TOKEN -t gradio-app .
 
 # Now run your Docker container, passing the secret environment variable
 docker run -it -p 7860:7860 -e HF_API_TOKEN=$HF_API_TOKEN gradio-app
 
-
-docker build -t gradio-app .
-
-docker run -it -p 7860:7860 -e HF_API_TOKEN=$HF_API_TOKEN gradio-app
-
+# Use docker composer
 docker-compose up --build
-
-
-
- "--host", "0.0.0.0", "--port", "7860"

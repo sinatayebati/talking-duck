@@ -5,7 +5,7 @@ import os
 
 API_TOKEN = os.getenv("HF_API_TOKEN")
 TRANSCRIBE_API_URL = "https://api-inference.huggingface.co/models/openai/whisper-base.en"
-LLM_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-v0.1"
+LLM_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
 
 def transcribe_audio(audio_file):
     """Transcribe audio file to text."""
@@ -39,7 +39,6 @@ def get_answer(context, question):
         "parameters": {
             "temperature": 0.3,  # More deterministic
             "top_p": 0.95,  # Consider top 90% probable tokens at each step
-            "max_new_tokens": 100,  # Limit the response length
             "repetition_penalty": 1.2,  # Discourage repetition
             "num_return_sequences": 1,  # Number of responses to generate
             "return_full_text": False,  # Return only generated text, not the full prompt
@@ -86,8 +85,8 @@ with gr.Blocks() as app:
         <div style="display: flex; justify-content: space-around; align-items: center;">
             <div>
                 <img src="https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/mistral-logo.png" alt="Mistral Logo" style="width: 40px; margin-bottom: 10px;"/>
-                <div style="font-size: 14px;">mistralai/Mistral-7B-v0.1</div>
-                <a href="https://huggingface.co/mistralai/Mistral-7B-v0.1" target="_blank" style="color: white; text-decoration: none; font-size: 12px;">Model Page</a>
+                <div style="font-size: 14px;">mistralai/Mixtral-8x7B-Instruct-v0.1</div>
+                <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1" target="_blank" style="color: white; text-decoration: none; font-size: 12px;">Model Page</a>
             </div>
             <div>
                 <img src="https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1620805164087-5ec0135ded25d76864d553f1.png?w=200&h=200&f=face" alt="Second Model Logo" style="width: 40px; margin-bottom: 10px;"/>
