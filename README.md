@@ -7,7 +7,7 @@ Ready for a quack-tastic coding session? Join the party at its [Hugging Face Spa
 
 <p align="center">
     <img src="assets/demo.png"
-    width = 500px
+    width = 700px
     >
 </p>
 
