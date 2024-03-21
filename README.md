@@ -11,13 +11,6 @@ Ready for a quack-tastic coding session? Join the party at its [Hugging Face Spa
     >
 </p>
 
-
-## What's the Quack?
-
-**TALKING DUCK** is an LLM-powered chatbot that does more than just float around. It listens (literally) to your code problems, thanks to its audio-to-text superpower, and then it gets its webbed feet dirty by diving into the depths of code logic to bring you pearls of wisdom... or at least, the answers to your coding questions.
-
-Whether you're tangled in the vines of Python, lost in the braces of JavaScript, or just need someone to tell you "It's gonna be okay, buddy," **TALKING DUCK** is your go-to aquatic ally.
-
 ## What's the Quack?
 
 **TALKING DUCK** is an LLM-powered coding companion ready to tackle your code conundrums. With its audio-to-text superpower, it listens to your woes and dives deep to fetch solutions—or at least tries to. Python puzzles? JavaScript jumbles? Need a virtual "there, there"? **TALKING DUCK** is your feathered fixer-upper. 🦆💻
@@ -34,7 +27,7 @@ Whether you're tangled in the vines of Python, lost in the braces of JavaScript,
 
 
 # Get Started
-To build Talking Duck, you could build from docker or setup a conda environment.
+To build Talking Duck locally, you could build from docker or setup a conda environment.
 
 
 ## Docker Setup
@@ -111,9 +104,6 @@ Want your very own **TALKING DUCK**? Follow these steps to clone this repository
 
     Visit `http://localhost:7860` in your web browser to see **TALKING DUCK** in all its glory!
 
-
-Sure! Here’s an addition to the README that includes instructions for building and running the **TALKING DUCK** project using Docker. This section assumes that you’ve Dockerized your Gradio app, as discussed earlier.
-
 ---
 
 
@@ -126,5 +116,3 @@ Got ideas to make **TALKING DUCK** even cooler? Fork this repo, make your change
 **TALKING DUCK** is released under the MIT License. See `LICENSE` for more information.
 
 ---
-
-Remember to replace `https://github.com/your-username/talking-duck.git` with the actual URL of your repository. Feel free to adjust the tone and content to match your project's personality and features more closely!
