@@ -1,8 +1,15 @@
 # TALKING DUCK 🦆
 
-Welcome to the coolest corner of the coding pond - <a href="https://huggingface.co/spaces/sinatayebati/Talking-Duck">**TALKING DUCK**!</a> This isn't just any duck. It's your feathered friend that quacks code solutions and dives deep into programming puzzles. Ever wished for a coding buddy that could talk back, understand your code woes, and not just stare blankly at you? **TALKING DUCK** is here to change the game!
+Dive into the code with [**TALKING DUCK**](https://huggingface.co/spaces/sinatayebati/Talking-Duck)! More than just a duck, it's the code buddy you wished for—one that talks back, navigates through your code woes, and never just stares blankly. 
 
-Dive in beak-first and see TALKING DUCK in action over at its very own <a href="https://huggingface.co/spaces/sinatayebati/Talking-Duck">Hugging Face Space</a>. It's like a pond party for coders, and you're invited! 🎉 
+Ready for a quack-tastic coding session? Join the party at its [Hugging Face Space](https://huggingface.co/spaces/sinatayebati/Talking-Duck) 🎉
+
+
+<p align="center">
+    <img src="assets/demo.png"
+    width = 500px
+    >
+</p>
 
 
 ## What's the Quack?
@@ -11,12 +18,19 @@ Dive in beak-first and see TALKING DUCK in action over at its very own <a href="
 
 Whether you're tangled in the vines of Python, lost in the braces of JavaScript, or just need someone to tell you "It's gonna be okay, buddy," **TALKING DUCK** is your go-to aquatic ally.
 
+## What's the Quack?
+
+**TALKING DUCK** is an LLM-powered coding companion ready to tackle your code conundrums. With its audio-to-text superpower, it listens to your woes and dives deep to fetch solutions—or at least tries to. Python puzzles? JavaScript jumbles? Need a virtual "there, there"? **TALKING DUCK** is your feathered fixer-upper. 🦆💻
+
+
 ## Features
 
-- 🎤 **Audio Input**: Just quack your question into your mic.
-- 🤔 **Smart Analysis**: Leveraging the brainy might of LLM models, including the one and only `mistralai/Mistral-7B-v0.1`.
-- 💡 **Insightful Answers**: Get recommendations, solutions, and sometimes just a friendly quack.
-- 🦆 **Fun Interface**: Because who said coding assistants need to be boring?
+- 🎤 **Audio Input**: Speak up, and thanks to `openai/whisper-base`, your words turn into queries.
+- 🤔 **Brainy Insights**: Leveraging LLM model `mistralai/Mistral-8x7B-Instruct-v0.1`, it's like having a genius duck decode your code.
+- 💡 **Insightful Answers**: From smart solutions to a chuckle-worthy quack, get the guidance you need.
+- 🦆 **Fun Interface**: Who says problem-solving can't be fun? Dive into a duck-themed coding adventure.
+
+
 
 
 # Get Started
